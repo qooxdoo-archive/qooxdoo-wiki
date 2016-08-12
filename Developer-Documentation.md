@@ -25,7 +25,7 @@ When a pull request (PR) is issued, all interested parties should express any co
 
 Acceptance of a PR is accomplished as follows:
 
-- When the stream of comments has died down -- in particular, dissenting comments -- a member of the commit team will announce, in the PR, to begin voting.
+- When the stream of comments has died down -- in particular, dissenting comments -- a member of the commit team will announce, in the PR, to begin voting, by creating a comment containing the string: `:ballot_box_with_check: CALL FOR VOTES` and adding the label `VOTING` to the PR.
 - The commit team members vote to incorporate the PR by adding, to the _call for votes_ comment, a thumbs-up emoji, or vote against incorporating the PR by adding, to the _call for votes_ comment, a thumbs-down emoji. Votes against incorporating the PR must include an added comment explaining why the member is voting against incorporating the PR.
 - If the PR proposer is a member of the commit team, he/she does not have voting rights on this PR.
 - A PR will be accepted when one of the following conditions has been met:
